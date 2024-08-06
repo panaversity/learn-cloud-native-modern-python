@@ -1,4 +1,4 @@
-banned_users:list[SyntaxWarning] = ['andrew', 'carolina', 'david']
+banned_users:list[str] = ['andrew', 'carolina', 'david']
 user:str = 'marie'
 
 if user not in banned_users:
