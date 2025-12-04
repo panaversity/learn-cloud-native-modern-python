@@ -22,7 +22,7 @@ Remember, your journey in education isn’t just about proving your intelligence
 
 Wishing you all the best on your journey to growth and success!
 
-We want to see how many of you are willing to adopt the growth mindset. As a first goal, uou are required to create the following project ASAP:
+We want to see how many of you are willing to adopt the growth mindset. As a first goal, you are required to create the following project ASAP:
 
 **[Streamlit Project Video: The Best Way to Build Python Apps?](https://www.youtube.com/watch?v=8W8NQFFbDcU)**
 
@@ -36,5 +36,5 @@ https://forms.gle/tS7C3sr55tUZ36GY8
 
 You can required to innovate and improve the webapp as described in the video above.
 
-You will also share your published app in your section whatsapp group. However, do not share yout source code in your github repo.
+You will also share your published app in your section whatsapp group. However, do not share your source code in your github repo.
 
