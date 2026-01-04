@@ -18,7 +18,7 @@ The formula to calculate BMI is:
 ### **Instructions:**
 
 1. Create a new Python file named **`bmi_calculator.ipynb`**.
-2. Aprogram.dd a comment at the top describing the purpose of your 
+2. Add a comment at the top describing the purpose of your program
 3. Ask the user to enter their **weight** in kilograms and **height** in meters.
 4. Convert this sentence into Python code:
 
