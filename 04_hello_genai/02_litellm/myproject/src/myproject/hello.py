@@ -3,6 +3,7 @@ import os
 
 os.environ["OPENAI_API_KEY"] = ""
 os.environ["GEMINI_API_KEY"] = ""
+os.environ["MINIMAX_API_KEY"] = ""
 
 def openai():
     response = completion(
@@ -28,4 +29,13 @@ def gemini2():
 
     print(response)
 
+def minimax():
+    response = completion(
+        model="openai/MiniMax-M2.7",
+        messages=[{ "content": "Hello, how are you?","role": "user"}],
+        api_key=os.environ.get("MINIMAX_API_KEY", ""),
+        api_base="https://api.minimax.io/v1",
+        temperature=0.7,
+    )
 
+    print(response)

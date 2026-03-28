@@ -29,6 +29,7 @@ To authenticate with different LLM providers, set your API keys as environment v
 import os
 os.environ["OPENAI_API_KEY"] = "your_openai_api_key"
 os.environ["ANTHROPIC_API_KEY"] = "your_anthropic_api_key"
+os.environ["MINIMAX_API_KEY"] = "your_minimax_api_key"
 # Add other keys as needed
 ```
 
@@ -53,6 +54,16 @@ response = completion(model="claude-2", messages=messages)
 **For VertexAI's Gemini**
 ```python
 response = completion(model="gemini-2.0", messages=messages)
+```
+
+**For MiniMax's M2.7 (via OpenAI-compatible API)**
+```python
+response = completion(
+    model="openai/MiniMax-M2.7",
+    messages=messages,
+    api_key=os.environ["MINIMAX_API_KEY"],
+    api_base="https://api.minimax.io/v1",
+)
 ```
 
 

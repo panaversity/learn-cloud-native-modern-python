@@ -2,18 +2,12 @@
 
     cd myproject
 
-    uv add litellm
+    uv add openai
 
     uv venv
 
     source .venv/bin/activate
 
-    uv run openai
-
-    uv run gemini
-
-    uv run gemini2
-
     uv run minimax
 
-    
+    uv run minimax_stream

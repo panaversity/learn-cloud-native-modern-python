@@ -1,21 +1,16 @@
 [project]
 name = "myproject"
 version = "0.1.0"
-description = "Add your description here"
+description = "Hello MiniMax AI - Getting started with MiniMax LLM"
 readme = "README.md"
-authors = [
-    { name = "Zia Khan", email = "ziaukhan@hotmail.com" }
-]
 requires-python = ">=3.12"
 dependencies = [
-    "litellm>=1.59.1",
+    "openai>=1.0.0",
 ]
 
 [project.scripts]
-openai = "myproject.hello:openai"
-gemini = "myproject.hello:gemini"
-gemini2 = "myproject.hello:gemini2"
 minimax = "myproject.hello:minimax"
+minimax_stream = "myproject.hello:minimax_stream"
 
 [build-system]
 requires = ["hatchling"]
